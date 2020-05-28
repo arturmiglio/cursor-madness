@@ -1,0 +1,100 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+body {
+  font-family: avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial,
+    sans-serif;
+  background: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: crosshair;
+  color: white;
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+.hooks-main {
+  width: 100%;
+  height: 100%;
+  /* background: black; */
+  /* overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+  position: fixed;
+  top: 0;
+  mix-blend-mode: difference;
+}
+
+.b1,
+.b2,
+.b3 {
+  position: absolute;
+  will-change: transform;
+  border-radius: 50%;
+  background: white;
+  /* box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.75); */
+  /* opacity: 0.95; */
+  mix-blend-mode: difference;
+}
+
+.b1,
+.b2,
+.b3 {
+  width: 180px;
+  height: 180px;
+}
+
+/* width: 186px;
+  height: 186px;
+}
+
+  width: 200px;
+  height: 180px;
+} */
+
+/* .b1::after,
+.b2::after,
+.b3::after {
+  content: '';
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1);
+} */
+
+.b2::after {
+  top: 70px;
+  left: 70px;
+  width: 70px;
+  height: 70px;
+}
+
+.b3::after {
+  top: 50px;
+  left: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.hooks-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* filter: url('#goo'); */
+  overflow: hidden;
+}
